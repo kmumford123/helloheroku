@@ -23,8 +23,8 @@ app.get("/api/cars", function(req, res) {
             model: "MDX"
         },
         {
-            make: "Jeep",
-            model: "Cherokee"
+            make: "BMW",
+            model: "X6"
         }, {
             make: "Ford",
             model: "Explorer"

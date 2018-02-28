@@ -26,8 +26,8 @@ app.get("/api/cars", function(req, res) {
             make: "BMW",
             model: "X6"
         }, {
-            make: "Ford",
-            model: "Explorer"
+            make: "Mercedes",
+            model: "G-Class"
         }
     ];
     res.send(cars);

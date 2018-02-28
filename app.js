@@ -13,7 +13,7 @@ app.get("/", function(req, res) {
     res.sendfile(path.join(__dirname, "index.html"))
 });
 
-app.get("/api/cars", function(res, req) {
+app.get("/api/cars", function(req, res) {
     var cars = [{
             make: "Audi",
             model: "R6"
@@ -29,7 +29,7 @@ app.get("/api/cars", function(res, req) {
             make: "Ford",
             model: "Explorer"
         }
-    ]
+    ];
     res.send(cars);
 })
 
